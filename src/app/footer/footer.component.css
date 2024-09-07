@@ -1,0 +1,20 @@
+.footer {
+    background-color: #141414;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content a {
+    color: gray;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .footer-content a:hover {
+    text-decoration: underline;
+  }
+  

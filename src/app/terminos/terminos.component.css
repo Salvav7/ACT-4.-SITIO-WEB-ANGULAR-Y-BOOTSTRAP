@@ -1,0 +1,71 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #141414; /* Fondo oscuro típico de Netflix */
+    color: #e5e5e5; /* Texto claro */
+}
+
+.content-page {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    background-color: #141414; /* Mantiene el fondo oscuro */
+    color: #b3b3b3; /* Color de texto más suave */
+}
+
+/* Títulos */
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #e5e5e5;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* Párrafos */
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #b3b3b3;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Enlaces */
+a {
+    color: #e50914; /* Color rojo estilo Netflix */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .content-page {
+        padding: 30px 15px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
