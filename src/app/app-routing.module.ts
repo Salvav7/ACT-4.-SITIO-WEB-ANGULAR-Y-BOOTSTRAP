@@ -6,6 +6,7 @@ import { SeriesComponent } from './series/series.component';
 import { TerminosComponent } from './terminos/terminos.component';
 import { AyudaComponent } from './ayuda/ayuda.component';
 import { PrivacidadComponent } from './privacidad/privacidad.component';
+import { DownloadXmlComponent } from './download-xml/download-xml.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'terminos', component: TerminosComponent},
   { path: 'ayuda', component: AyudaComponent },
   { path: 'privacidad', component:PrivacidadComponent},
+  { path: 'dowland', component:DownloadXmlComponent},
 ];
 
 

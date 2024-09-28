@@ -10,6 +10,7 @@ import { SeriesComponent } from './series/series.component';
 import { TerminosComponent } from './terminos/terminos.component';
 import { AyudaComponent } from './ayuda/ayuda.component';
 import { PrivacidadComponent } from './privacidad/privacidad.component';
+import { DownloadXmlComponent } from './download-xml/download-xml.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PrivacidadComponent } from './privacidad/privacidad.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    DownloadXmlComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

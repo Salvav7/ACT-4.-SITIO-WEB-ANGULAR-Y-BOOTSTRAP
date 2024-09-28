@@ -1,27 +1,45 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 0px;
-    background-color: rgba(0, 0, 0, 0.8);
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-  }
-  
-  .navbar a {
-    color: white;
-    text-decoration: none;
-    margin-right: 20px;
-  }
-  
-  .logo {
-    height: 40px;
-  }
-  
-  .navbar-right a {
-    margin-left: 15px;
-    font-size: 20px;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0px;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right a, .download-button {
+  margin-left: 15px;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right i {
+  font-size: 24px;
+}
+
+.download-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}

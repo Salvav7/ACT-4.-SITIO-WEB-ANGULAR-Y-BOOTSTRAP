@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE clase SYSTEM "clase.dtd">
+
+
+<!DOCTYPE clase [
+  <!ELEMENT clase (alumno+)> 
+  <!ELEMENT alumno (nombre, edad, matricula)> 
+  <!ELEMENT nombre (#PCDATA)> 
+  <!ELEMENT edad (#PCDATA)> 
+  <!ELEMENT matricula (#PCDATA)> 
+  <!ATTLIST alumno id ID #REQUIRED>
+]>
+
+
+<clase>
+    <alumno id="1">
+        <nombre>Miguel</nombre>
+        <edad>23</edad>
+        <matricula>123456</matricula>
+    </alumno>
+    <alumno id="2">
+        <nombre>Bernado Velardi</nombre>
+        <edad>21</edad>
+        <matricula>123457</matricula>
+    </alumno>
+    <alumno id="3">
+        <nombre>Ercik Odayar</nombre>
+        <edad>29</edad>
+        <matricula>123458</matricula>
+    </alumno>
+    <alumno id="4">
+        <nombre>Carlos Gaytan</nombre>
+        <edad>21</edad>
+        <matricula>123459</matricula>
+    </alumno>
+    <alumno id="5">
+        <nombre>Ferxxo</nombre>
+        <edad>21</edad>
+        <matricula>123460</matricula>
+    </alumno>
+    <alumno id="6">
+        <nombre>Emanuel</nombre>
+        <edad>20</edad>
+        <matricula>123464</matricula>
+    </alumno>
+    <alumno id="7">
+        <nombre>Gerardo</nombre>
+        <edad>21</edad>
+        <matricula>123465</matricula>
+    </alumno>
+    <alumno id="8">
+        <nombre>Melissa</nombre>
+        <edad>21</edad>
+        <matricula>123466</matricula>
+    </alumno>
+    <alumno id="9">
+        <nombre>Francisco</nombre>
+        <edad>23</edad>
+        <matricula>123467</matricula>
+    </alumno>
+    <alumno id="10">
+        <nombre>Luis Enrique</nombre>
+        <edad>22</edad>
+        <matricula>123468</matricula>
+    </alumno>
+    <alumno id="11">
+        <nombre>Johan</nombre>
+        <edad>23</edad>
+        <matricula>123469</matricula>
+    </alumno>
+    <alumno id="12">
+        <nombre>Jose</nombre>
+        <edad>21</edad>
+        <matricula>123470</matricula>
+    </alumno>
+    <alumno id="13">
+        <nombre>Omar</nombre>
+        <edad>21</edad>
+        <matricula>123471</matricula>
+    </alumno>
+    <alumno id="14">
+        <nombre>Emilio</nombre>
+        <edad>23</edad>
+        <matricula>123472</matricula>
+    </alumno>
+    <alumno id="15">
+        <nombre>Salvador</nombre>
+        <edad>21</edad>
+        <matricula>123473</matricula>
+    </alumno>
+</clase>
